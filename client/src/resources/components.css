@@ -1,0 +1,57 @@
+.spinner-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.507);
+  z-index: 10000;
+}
+
+.spinner-border {
+  color: white !important;
+  height: 80px !important;
+  width: 80px !important;
+}
+
+.card {
+  border: 2px solid gray;
+  box-shadow: 0 0 1px rgb(189, 189, 189);
+  border-radius: 0 !important;
+}
+
+.book {
+  border: 4px solid rgba(108, 140, 3, 0.834);
+  box-shadow: 0 0 1px rgb(99, 208, 175);
+  border-radius: 0 !important;
+  cursor: pointer;
+}
+
+.bus-container {
+  width: 300px !important;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.seat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.selected-seat{
+  background-color: rgb(0, 102, 255);
+  color:rosybrown;
+}
+.booked-seat{
+  background-color: gray;
+  color: white;
+  pointer-events: none !important;
+  cursor: disabled !important;
+}
